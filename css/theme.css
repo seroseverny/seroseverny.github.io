@@ -1,0 +1,162 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+body {
+    font-family: 'Source Serif Pro';
+    font-size: 1.5em;
+}
+
+a {
+    color: rgb(100, 100, 150);
+}
+
+a:hover {
+    color: rgb(130, 130, 180);
+}
+
+a code {
+    text-decoration: underline;
+}
+
+
+.copyright {
+    color: #ffffff;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: #ee4444;
+}
+
+.sidebar h1 {
+    color: #ee4444;
+    font-size: 1.3em;
+}
+
+
+.sidebar ul {
+    padding-left: 1em;
+}
+
+.sidebar li {
+    margin-top: .7em;
+    line-height: 1em;
+}
+
+.container-left {
+    margin: 0;
+}
+
+.well h1 {
+    color: rgb(0, 0, 0);
+    font-size: 1.3em;
+    padding-top: 0;
+    padding-bottom: 0.25em;
+    margin-top: 0;
+}
+
+.author {
+    color: #ee4444;
+}
+
+.author a {
+    color: #ee4444;
+}
+
+.sidebar img {
+    width: 100%;
+    height: 100%;
+}
+
+/* Use these to indicate good/bad code snippet. Wrap the backslashed block
+ * into <div class="code-good"> or analogously for "code-bad". */
+.code-bad pre {
+    background-color: rgb(250, 240, 240);
+}
+
+.code-good pre {
+    background-color: rgb(230, 250, 240);
+}
+
+body {
+    background: #f7f7f7;
+    margin: 0;
+}
+
+
+.box {
+    position: fixed;
+    background: #fff;
+    width: 640px;
+    font-size: 1em;
+    font-family: "museo-slab", "museo slab", "Helvetica Neue", Ubuntu, "WenQuanYi Micro Hei", Helvetica, "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Apple LiGothic", "LiHei Pro", "Hiragino Sans GB W6", "Hiragino Sans GB", "Microsoft JhengHei", "PMingLiU", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .3);
+    left: 50%;
+    margin-left: -320px;
+    top: 40%;
+    border-radius: 6px;
+}
+
+/* sup: taken from https://codepen.io/Kaiyuan/pen/ANNOed */
+sup {
+    width: 19px;
+    height: 1em;
+    display: inline-block;
+    text-align: center;
+    text-indent: -9999px;
+    -webkit-font-smoothing: antialiased;
+    background: #fff url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjQsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9InN1cCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIxMDcuNzIxcHgiIGhlaWdodD0iNTYuNjg5cHgiIHZpZXdCb3g9IjAgMCAxMDcuNzIxIDU2LjY4OSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTA3LjcyMSA1Ni42ODkiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggZmlsbD0iIzIyMjIyMiIgZD0iTTEwNy43MTcsNTYuNjkzSDBWMGgxMDcuNzE3VjU2LjY5M3ogTTUzLjg1OCwxOS44NDNjLTQuNjk3LDAtOC41MDQsMy44MDgtOC41MDQsOC41MDMNCgljMCw0LjY5NywzLjgwOCw4LjUwNSw4LjUwNCw4LjUwNWM0LjY5NiwwLDguNTA0LTMuODA4LDguNTA0LTguNTA1QzYyLjM2MiwyMy42NTEsNTguNTU0LDE5Ljg0Myw1My44NTgsMTkuODQzeiBNODIuMzU4LDE5Ljg0Mw0KCWMtNC42OTYsMC04LjUwNSwzLjgwOC04LjUwNSw4LjUwM2MwLDQuNjk3LDMuODA5LDguNTA1LDguNTA1LDguNTA1czguNTA0LTMuODA4LDguNTA0LTguNTA1DQoJQzkwLjg2MiwyMy42NTEsODcuMDU0LDE5Ljg0Myw4Mi4zNTgsMTkuODQzeiBNMjUuMzU4LDE5Ljg0M2MtNC42OTYsMC04LjUwNCwzLjgwOC04LjUwNCw4LjUwM2MwLDQuNjk3LDMuODA4LDguNTA1LDguNTA0LDguNTA1DQoJczguNTAzLTMuODA4LDguNTAzLTguNTA1QzMzLjg2MiwyMy42NTEsMzAuMDU0LDE5Ljg0MywyNS4zNTgsMTkuODQzeiIvPg0KPC9zdmc+DQo=) no-repeat center center;
+    background-size: cover;
+    border-radius: 1px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2), inset 0 1px 1px rgba(255, 255, 255, .2);
+}
+
+.sup-box {
+    max-width: 220px;
+    width: auto;
+    max-height: 120px;
+    padding: 0.2em;
+    border: 1px solid #000;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .3);
+    position: absolute;
+    vertical-align: middle;
+    word-wrap: break-word;
+    z-index: 100;
+}
+
+.sup-box:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border: 5px solid #000;
+    border-color: rgba(255, 255, 255, 0) #000 #000 rgba(255, 255, 255, 0);
+    z-index: 99;
+    position: absolute;
+    bottom: -6px;
+    margin-left: -6px;
+    left: 50%;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .1);
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+    transform: rotateZ(45deg);
+    -webkit-transform: rotateZ(45deg);
+    -moz-transform: rotateZ(45deg);
+    -o-transform: rotateZ(45deg);
+}
+
+/* sup end */

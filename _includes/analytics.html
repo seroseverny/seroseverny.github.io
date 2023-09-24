@@ -1,0 +1,11 @@
+{% if site.gaaccount != '' %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{site.gaaccount}}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  console.log(window.dataLayer);
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  console.log('{{site.gaaccount}}');
+  gtag('config', '{{ site.gaaccount }}');
+</script>
+{% endif %}
